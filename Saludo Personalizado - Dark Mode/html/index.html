@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saludo Personalizado</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    
+  </head>
+
+
+  <body>
+    
+    <div class="container">
+      <h1>Saludo Personalizado</h1>
+      <label for="name">Ingresa tu nombre: </label>
+      <input type="text" id="nameInput"/>
+      <button id="greetButton" class="boton" onclick="mostarMensaje()">
+        Mostrar Saludo
+      </button>
+
+      <h1 id="greetingMessage"></h1>
+
+      <hr class="linea">
+
+      <h1>Modo Oscuro</h1>
+      <button id="btn-oscuro" onclick="modoOscuro()">Activar</button>
+      <button id="btn-claro" onclick="modoClaro()">Desactivar</button>
+
+    </div>
+    <script src="../js/script.js"></script>
+
+  </body>
+</html>
